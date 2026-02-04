@@ -1,0 +1,290 @@
+<?php
+/**
+ * Title: front-page
+ * Slug: poe-portfolio-child/front-page
+ * Inserter: no
+ */
+?>
+<!-- wp:template-part {"slug":"header","tagName":"header","align":"full","className":"site-header"} /-->
+
+<!-- wp:group {"tagName":"main"} -->
+<main class="wp-block-group"><!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"wide","layout":{"inherit":false,"contentSize":""}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"left","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"top":"1.5em"}}}} -->
+<h1 class="wp-block-heading has-text-align-left has-link-color" id="poe-portfolio-child-is-a-minimal-dark-and-free-block-theme-for-anyone-who-needs-a-portfolio-more" style="margin-top:1.5em">This can be used to introduce yourself in a short blurb.<br>		 <a href="/about">Learn More →</a><br>	</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"64px","top":"40vh"}}}} -->
+<div class="wp-block-group alignwide" style="padding-top:40vh;padding-bottom:64px"></div>
+<!-- /wp:group -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"width":"200px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-1.png" alt="" style="width:200px"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:pullquote {"textAlign":"left","textColor":"primary","fontSize":"heading-3"} -->
+<figure class="wp-block-pullquote has-text-align-left has-primary-color has-text-color has-heading-3-font-size"><blockquote><p>“Testimonial quote here”</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"1em"}}}} -->
+<div class="wp-block-group" style="padding-top:1em"><!-- wp:paragraph {"textColor":"foreground","fontSize":"heading-6"} -->
+<p class="has-foreground-color has-text-color has-heading-6-font-size">Person's Name</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"64px"} -->
+<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"}}},"backgroundColor":"quaternary","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="padding-top:64px;padding-bottom:64px"><!-- wp:group {"align":"wide","layout":{"inherit":false}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"bottom":"64px"}}}} -->
+<h4 class="wp-block-heading" id="our-process" style="margin-bottom:64px">Our Process</h4>
+<!-- /wp:heading -->
+
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:separator {"className":"is-style-wide","backgroundColor":"tertiary"} -->
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"8%"} -->
+<div class="wp-block-column" style="flex-basis:8%"><!-- wp:heading {"level":4,"textColor":"primary"} -->
+<h4 class="wp-block-heading has-primary-color has-text-color" id="1">1.</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"42%"} -->
+<div class="wp-block-column" style="flex-basis:42%"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading" id="explore">Explore</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:separator {"className":"is-style-wide","backgroundColor":"tertiary"} -->
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"8%"} -->
+<div class="wp-block-column" style="flex-basis:8%"><!-- wp:heading {"level":4,"textColor":"primary"} -->
+<h4 class="wp-block-heading has-primary-color has-text-color" id="2">2.</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"42%"} -->
+<div class="wp-block-column" style="flex-basis:42%"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading" id="execute">Execute</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:separator {"className":"is-style-wide","backgroundColor":"tertiary"} -->
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"8%"} -->
+<div class="wp-block-column" style="flex-basis:8%"><!-- wp:heading {"level":4,"textColor":"primary"} -->
+<h4 class="wp-block-heading has-primary-color has-text-color" id="3">3.</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"42%"} -->
+<div class="wp-block-column" style="flex-basis:42%"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading" id="evaluate">Evaluate</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"64px"} -->
+<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:separator {"className":"is-style-wide","backgroundColor":"tertiary"} -->
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"bottom":"32px"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center" style="margin-bottom:32px"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading" id="our-clients">Our Clients</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph -->
+<p>We foster long-term relationships. Do you want to <a href="">start one</a>?</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:gallery {"columns":3,"imageCrop":false,"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-3"><!-- wp:image {"linkDestination":"none"} -->
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"linkDestination":"none"} -->
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"linkDestination":"none"} -->
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"64px"} -->
+<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:separator {"className":"is-style-wide","backgroundColor":"tertiary"} -->
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"bottom":"32px"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center" style="margin-bottom:32px"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading" id="features">Features</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph -->
+<p>Learn what you can expect from us.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"quaternary"} -->
+<div class="wp-block-column has-quaternary-background-color has-background"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:image {"linkDestination":"none"} -->
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/feature-1.png" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"quaternary"} -->
+<div class="wp-block-group has-quaternary-background-color has-background" style="margin-top:0px;margin-bottom:0px"><!-- wp:heading {"level":6,"textColor":"primary"} -->
+<h6 class="wp-block-heading has-primary-color has-text-color" id="clean-design">Clean Design</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"backgroundColor":"quaternary"} -->
+<div class="wp-block-column has-quaternary-background-color has-background"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:image {"linkDestination":"none"} -->
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/feature-2.png" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"quaternary"} -->
+<div class="wp-block-group has-quaternary-background-color has-background" style="margin-top:0px;margin-bottom:0px"><!-- wp:heading {"level":6,"textColor":"primary"} -->
+<h6 class="wp-block-heading has-primary-color has-text-color" id="full-site-editing">Flexible Solutions</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"backgroundColor":"quaternary"} -->
+<div class="wp-block-column has-quaternary-background-color has-background"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:image {"linkDestination":"none"} -->
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/feature-3.png" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"quaternary"} -->
+<div class="wp-block-group has-quaternary-background-color has-background" style="margin-top:0px;margin-bottom:0px"><!-- wp:heading {"level":6,"textColor":"primary"} -->
+<h6 class="wp-block-heading has-primary-color has-text-color" id="global-styles">Reliable Support</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"}}}} -->
+<div class="wp-block-columns alignwide" style="padding-top:64px;padding-bottom:64px"><!-- wp:column {"width":"33%"} -->
+<div class="wp-block-column" style="flex-basis:33%"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading" id="about">About</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"1em"}}} -->
+<div class="wp-block-column"><!-- wp:paragraph {"fontSize":"heading-4"} -->
+<p class="has-heading-4-font-size">Use this area to add a longer introduction to yourself.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"heading-4"} -->
+<p class="has-heading-4-font-size">Use this area to continue your longer introduction.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"blockGap":"1.5em"}},"fontSize":"heading-4","layout":{"type":"flex"}} -->
+<div class="wp-block-group has-link-color has-heading-4-font-size"><!-- wp:paragraph -->
+<p><a href="">More →</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="">Contact →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","align":"full","className":"site-footer"} /-->
